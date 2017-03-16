@@ -1,0 +1,787 @@
+body {
+	margin: 0;
+    padding: 0;
+    height: auto;
+    position: relative;
+    background-color: yellow;
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+    float: left;
+    background-image: url(../img/bg3.jpg);
+    background-size: cover;
+    border-bottom: 1px solid;
+    margin-bottom: 5px;
+}
+.wrap{
+    width: 55%;
+    height: 274px;
+    float: right;
+
+}
+/*---------------------------------------logo------------------------------*/
+.logo{
+    width: 45%;
+    height: 100%;
+    float: left;
+    
+}
+.logo img{
+    width: 100%;
+    height: 325px;
+    max-width: 100%;
+    max-height: auto;
+    
+}
+/*---------------------------------------banner------------------------------*/
+.banner{
+    width: 100%;
+    height: 100%;
+    float: right;
+    text-align: center;
+    
+}
+.banner img.banner1{
+    width: 50%;
+    height: 280px;
+    float: left;
+}
+.banner img.banner2{
+    width: 50%;
+    height: 280px;
+    float: right; 
+}
+/*---------------------------------------navigation------------------------------*/
+.navwrap{
+    float: right;
+    width: 100%;
+    height: 100%;
+}
+.navigation nav{
+    width: 100%;
+    max-height: auto;
+    text-align: center;
+    max-width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    float: left;
+    max-height: auto;  
+    background: rgba(255, 255, 255, 0.4);
+    clear: both;
+}
+.navigation nav ul{
+    display: inline;
+    margin: 0 auto;
+}
+.navigation nav ul li{    
+    display: inline-block;
+    font-family: Cooper Black;
+    font-size: 15px;
+    letter-spacing: 3px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+     
+}
+.navigation nav ul li a{
+    color: red;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    
+}
+.navigation nav ul li a:visited{
+    color: red;
+    text-decoration: none;
+}
+.navigation nav ul li a.active{
+	color: darkblue;
+    background: rgba(203, 182, 171, 0.7);
+}
+.navigation nav ul li a:hover{
+    background: rgba(116, 175, 218, 0.7);
+    -moz-transform: scale(1.20,1.20);
+	-o-transform: scale(1.20,1.20);
+	-webkit-transform:scale(1.20,1.20);
+	transform: scale(1.20,1.20);
+    text-shadow: 0px 0 15px #fff;
+}
+
+/*---------------------------------------wrapper2------------------------------*/
+.wrapper2{
+    max-width: 100%;
+    width: 100%;
+    float: left;
+    text-align: center;
+    
+}
+.pagecontent{
+    float: right;
+    height: 700px;
+    width: 80%;
+    text-align: center;
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+.pagecontent1{
+    float: left;
+    text-align: justify;
+    height: 700px;
+    width: 80%;
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+.pagecontent2{
+    float: left;
+    height: 700px;
+    width: 80%;
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+     text-align: center;
+}
+.pagecontent3{
+    float: left;
+    text-align: justify;
+    height: 700px;
+    width: 80%;
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+   
+}
+/*---------------------------------------content1------------------------------*/
+.content1{
+    height: auto;
+    width: 59%;
+    max-width: 100%;
+    float: left;
+    
+}
+.content1a{
+    background: rgba(255, 255, 255, 0.4);
+    text-align: left;
+    box-shadow: 10px 10px 5px grey;
+    width: 96%;
+    max-width: 100%;
+    height: auto;
+    float: left;
+    
+}
+.c1atext{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    float: left;
+    
+}
+.c1atext c1a{
+    font-family: Cooper Black;
+    font-size: 30px;
+}
+.c1a1{
+    width: 97%;
+    height: auto;
+    float: left;
+    margin: 5px;
+    
+}
+.c1a1 text{
+    font-family: Consolas;
+    font-size: 20px;
+}
+.c1a1 a.more {
+	background-color: gold;
+	color: black;
+	display: block;
+	float: right;
+	font-family: Cooper Black;
+	font-size: 18px;
+	font-weight: normal;
+	height: auto;
+	line-height: 49px;
+	padding: 0;
+	text-align: center;
+	width: 30%;
+    max-width: 100%;
+	z-index: 55;
+}
+.c1a2 a.more:hover {
+	background-color: #ab000b;
+	color: #ffffff;
+}
+.content1b{
+    width: 96%;
+    max-width: 100%;
+    height: auto;
+    float: left;
+    margin-top: 10px; 
+    background: rgba(255, 255, 255, 0.4);
+    box-shadow: 10px 10px 5px grey;
+}
+.c1btext{
+    width: 100%;
+    max-width: 100%;
+    height: 50px;
+    float: left;
+    line-height: 50px;
+    
+}
+.c1btext c1b{
+    font-family: Cooper Black;
+    font-size: 30px;
+}
+.new{
+    width: 98%;
+    max-width: 100%;
+    height: 300px;
+    float: left;
+}
+.new img{
+    width: 100%;
+    max-width: 100%;
+    height: 250px;
+    float: left;
+    
+}
+.c1b1{
+    width: 25%;
+    max-width: 100%;
+    height: 250px;
+    float: right;
+    
+}
+.c1bsubtext{
+    width: 40%;
+    max-width: 100%;
+    height: 50px;
+    max-height: auto;
+    float: left;
+    text-align: center;
+}
+.c1bsubtext text{
+    font-family: Cooper Black;
+    font-size: 15px;
+}
+.c1bsubtext date{
+    font-family: Cooper Black;
+    font-size: 10px;
+    color: black;
+}
+.new a.more {
+	background-color: gold;
+	color: black;
+	display: block;
+	float: right;
+	font-family: Cooper Black;
+	font-size: 18px;
+	font-weight: normal;
+	height: auto;
+	line-height: 49px;
+	padding: 0;
+	text-align: center;
+	width: 30%;
+    max-width: 100%;
+	z-index: 55;
+}
+.c1b2 a.more:hover {
+	background-color: #ab000b;
+	color: #ffffff;
+}
+/*---------------------------------------content2------------------------------*/
+.content2{
+    background: rgba(255, 255, 255, 0.4);
+    box-shadow: 10px 10px 5px grey;
+    height: auto;
+    width: 38%;
+    max-width: 100%;
+    float: right;
+}
+.c2text{
+    width: 100%;
+    max-width: 100%;
+    height: 40px;
+    float: left;
+    display: block;
+    line-height: 49px;
+    text-align: center;
+}
+.c2text ct2{
+    font-family: Cooper Black;
+    font-size: 25px;
+}
+.fphoto1{
+    width: 99%;
+    max-width: 100%;
+    height: auto;
+    float: left;
+}
+.fp1{
+    width: 60%;
+    max-width: 100%;
+    height: 180px;
+    float: left;
+}
+.fp1 img{
+    width: 100%;
+    height: 180px;
+    max-width: 100%;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.fphototext{
+    width: 31%;
+    max-width: 100%;
+    height: 180px;
+    float: right;
+}
+.fpspace{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    float: right;
+    margin-top: 15px;
+}
+.fpt a.more {
+	background-color: gold;
+	color: black;
+	display: block;
+	float: right;
+	font-family: Cooper Black;
+	font-size: 15px;
+	font-weight: normal;
+	height: auto;
+    float: right;
+	line-height: 49px;
+	padding: 0;
+	text-align: center;
+	width: 100%;
+	z-index: 55;
+}
+.fpt a.more:hover {
+	background-color: #ab000b;
+	color: #ffffff;
+    
+}
+.fphoto2{
+    width: 100%;
+    height: auto;
+    float: left;
+    max-width: 100%;
+    padding-top: 20px;
+}
+.fp2{
+    width: 60%;
+    height: 180px;
+    max-width: 100%;
+    float: left;
+}
+.fp2 img{
+    width: 100%;
+    height: 180px;
+    max-width: 100%;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.fphototext2{
+    width: 31%;
+    height: auto;
+    max-width: 100%;
+    float: right;
+}
+.fpspace2{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    float: right;
+    margin-top: 15px;
+}
+.fpt2 a.more {
+	background-color: gold;
+	color: black;
+	display: block;
+	float: right;
+	font-family: Cooper Black;
+	font-size: 15px;
+	font-weight: normal;
+	height: auto;
+    float: right;
+	line-height: 49px;
+	padding: 0;
+	text-align: center;
+	width: 100%;
+    max-width: 100%;
+	z-index: 55;
+}
+.fpt2 a.more:hover {
+	background-color: #ab000b;
+	color: #ffffff;
+}
+.comment{
+    float: right;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+.comment comment{
+    font-family: Cooper Black;
+    font-size: 15px;
+}
+/*---------------------------------------footer------------------------------*/
+.footer{
+    width: 100%;
+    max-width: 100%;
+    background-color: firebrick;
+    text-align: center;
+    float: left;
+    height: 25px;
+    padding-top: 5px;
+}
+.footer f{
+    font-family: Consolas;
+    font-size: 15px;
+}
+
+/*Contact*/
+.contentContact1{
+    background-color: yellow;
+    width: 48%;
+    box-shadow: 10px 10px 5px grey;
+    height: 400px;
+    float: left;
+    background: rgba(255, 255, 255, 0.4);
+    text-align: center;
+}
+.contentContact1 h2{
+    font-family: Cooper Black;
+}
+.contentContact1 h3{
+    font-family: Cooper Black;
+}
+.contentContact2{
+    background: rgba(255, 255, 255, 0.4);
+    box-shadow: 10px 10px 5px grey;
+    width: 48%;
+    height: 200px;
+    float: right;
+    text-align: center;
+}
+.contentContact2 h2{
+    font-family: Cooper Black;
+}
+.contentContact2 h3{
+    font-family: Consolas;
+}
+.contentContact3{
+    font-family: Cooper Black;
+}
+.contentContact3{
+    background: rgba(255, 255, 255, 0.4);
+    width: 98%;
+    margin-top: 50px;
+    height: 150px;
+    float: right;
+    box-shadow: 10px 10px 5px grey;
+    text-align: center;
+}
+.cc1{
+    width: 32%;
+    height: 50px;
+    margin-left: 10px;
+    max-height: 100%;
+    max-width: 100%;
+    float: left;
+
+}
+.cc1 a{
+    text-decoration: none; 
+    color: black;
+}
+.cc2{
+    width: 32%;
+    height: 50px;
+    max-height: 100%;
+    float: left;
+    max-width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.cc2 a{
+    text-decoration: none; 
+    color: black;
+}
+.cc3{
+    width: 32%;
+    float: right;
+    height: 50px;
+    max-height: 100%;
+    margin-right: 10px;
+    max-width: 100%;
+}
+.cc3 a{
+    text-decoration: none; 
+    color: black;
+}
+.input1{
+    width: 50%;
+}
+.input2{
+    width: 50%;
+}
+.commentbox{
+    width: 50%;
+}
+/*ABout Content*/
+.aboutContent1{
+    float: left;
+    width: 48%;
+    height: 700px;
+}
+
+.aboutContent2{
+    float: right;
+    width: 48%;
+    height: 650px;
+    text-align: center;
+    box-shadow: 10px 10px 5px grey;
+    background: rgba(255, 255, 255, 0.4);
+}
+.aca{
+    float: left;
+}
+.aca h2{
+    font-family: Cooper Black;
+}
+.aca1{
+    float: left;
+}
+
+.ac1{
+    width: 98%;
+    background: rgba(255, 255, 255, 0.4);
+    text-align: justify;
+    box-shadow: 10px 10px 5px grey;
+    height: 160px;
+    margin: 10px;
+    float: left;
+}
+.aca1 h2{
+    font-family: Cooper Black;
+}
+.ac1 h3{
+    float: left;
+    margin: 10px;
+    font-family: Consolas;
+}
+.ac2{
+    width: 98%;
+    background: rgba(255, 255, 255, 0.4);
+    text-align: justify;
+    box-shadow: 10px 10px 5px grey;
+    height: 170px;
+    margin: 10px;
+    float: left;
+}
+.ac2 h3{
+    font-family: Consolas;
+    float: left;
+    margin: 10px;
+}
+.aboutContent2 h2{
+    font-family: Cooper Black;
+    text-align: left;
+}
+.aboutContent2 h3{
+    font-family: Consolas;
+    text-align: left;
+}
+.aboutContent2 img{
+    width: 50%;
+    height: 200px;
+    box-shadow: 10px 10px 5px grey;
+}
+/*Gallery*/
+
+.pc1{
+    width: 47%;
+    height: 320px;
+    box-shadow: 10px 10px 5px grey;
+    background: rgba(255, 255, 255, 0.4);
+    margin: 10px;
+    float: left;
+}
+.pc1 h2{
+    font-family: Cooper Black;
+}
+.pc1 h3{
+    font-family: Consolas;
+}
+.pc1 img{
+   width: 70%;
+   box-shadow: 10px 10px 5px grey;
+}
+.pc2{
+    width: 47%;
+    height: 320px;
+    box-shadow: 10px 10px 5px grey;
+    background: rgba(255, 255, 255, 0.4);
+    margin: 10px;
+    float: right;
+}
+.pc2 img{
+    width: 45%;
+    height: 190px;
+    box-shadow: 10px 10px 5px grey;
+    float: left;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+.pc2 h2{
+    font-family: Cooper Black;
+}
+.pc2 h3{
+    font-family: Consolas;
+}
+.pc3{
+    width: 98%;
+    height: 320px;
+    box-shadow: 10px 10px 5px grey;
+    background: rgba(255, 255, 255, 0.4);
+    margin: 10px;
+    float: left;
+}
+.pc3 img{
+    width: 45%;
+    height: 150px;
+    box-shadow: 10px 10px 5px grey;
+    float: left;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+/*LightBox*/
+.lightbox {
+	cursor: pointer;
+}
+
+.lightbox-background {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.95);
+	overflow: hidden;
+	z-index: 9999999;
+}
+
+.lightbox-exit,
+.lightbox-button-left,
+.lightbox-button-right {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background: url(../images/icons_white.svg);
+	background-size: 60px 20px;
+	z-index: 99999999999;
+	cursor: pointer;
+}
+
+.lightbox-exit {
+	top: 25px;
+	right: 25px;
+	background-position: 0 0;
+}
+
+.lightbox-button-left,
+.lightbox-button-right {
+	top: 50%;
+	transform: translate(0, -50%);
+}
+
+.lightbox-button-left {
+	left: 25px;
+	background-position: 20px 0;
+}
+
+.lightbox-button-right {
+	right: 25px;
+	background-position: 40px 0;
+}
+
+	.lightbox-inactive {
+		opacity: 0.2;
+	}
+	
+.lightbox-slides {
+	height: 100%;
+}
+	
+.lightbox-slide {
+	position: absolute;
+	display: block;
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.lightbox-slide img {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		max-width: 100%;
+		max-height: 100vh;
+	}
+	
+.lightbox-caption {
+		position: absolute;
+		width: 100%;
+		bottom: 0;
+		background: rgba(0, 0, 0, 0.9);
+		color: rgba(255, 255, 255, 1);
+		line-height: 50px;
+		font-size: 20px;
+		text-align: center;
+	}
+	
+.lightbox-loader {
+	position: absolute;
+    background: url(../images/loading.gif);
+	background-size: 25px 25px;
+	width: 25px;
+	height: 25px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 999999999999;
+	opacity: 0;
+}
+
+	svg path,
+	svg rect{
+	  fill: #fff;
+	}
+.lightbox-slides {
+	transition: 500ms;
+}
+
+
+
+
+
+
